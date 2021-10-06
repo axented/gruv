@@ -11,7 +11,7 @@
             <img class="pr-5 h-10" src="./assets/google-play-badge.png">
           </div>
         </div>
-        <img class="absolute bottom-0 right-0" src="./assets/girl.png">
+        <img class="absolute bottom-0 right-0 w-1/2" src="./assets/girl.png">
       </div>
     </div>
     <div class="container mx-auto">
@@ -32,14 +32,14 @@
         <div class="grid grid-cols-2 gap-5">
           <div class="space-y-10 col-span-1">
             <div class="flex">
-              <LightningBoltIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5" width="50" height="50"/>
+              <LightningBoltIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5 text-primary" width="50" height="50"/>
               <div class="min-w-0 relative flex-auto">
                 <h2 class="text-lg font-semibold text-black mb-0.5">Lobby</h2>
                 <p>Crea un lobby e invita a tus amigos y familiares. Chatea con ellos mientras esperan a que todos se unan al juego.</p>
               </div>
             </div>
             <div class="flex">
-              <CameraIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5" width="50" height="50"/>
+              <CameraIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5 text-primary" width="50" height="50"/>
               <div class="min-w-0 relative flex-auto">
                 <h2 class="text-lg font-semibold text-black mb-0.5">Crea</h2>
                 <p>El primer jugador en la cadena actúa frente a su cámara haciendo algunos pasos de baile, movimientos corporales, canto, declamación o incluso contar un chiste.</p>
@@ -53,7 +53,7 @@
               </div>
             </div>
             <div class="flex">
-              <ClockIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5" width="50" height="50"/>
+              <ClockIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5 text-primary" width="50" height="50"/>
               <div class="min-w-0 relative flex-auto">
                 <h2 class="text-lg font-semibold text-black mb-0.5">Espera</h2>
                 <p>Una vez que todos han grabado su video, la plataforma los presenta en secuencia. Esto es un grüv.</p>
