@@ -5,7 +5,15 @@ module.exports = {
     fontFamily: {
       'sans': ['DM Sans', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#7F369B'
+        },
+        almostblack: '#191B20',
+        offwhite: '#F4F4FF'
+      }
+    },
   },
   variants: {
     extend: {},
