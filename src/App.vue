@@ -30,21 +30,21 @@
         <div class="flex flex-row">
           <div class="space-y-10 flex-grow">
             <div class="flex">
-              <img src="//placehold.it/400" alt="" class="flex-none w-18 h-18 rounded-full object-cover bg-gray-100 mr-8" width="50" height="50" />
+              <LightningBoltIcon class="flex-none w-12 h-12 rounded-full bg-white mr-8 p-3" width="50" height="50"/>
               <div class="min-w-0 relative flex-auto">
                 <h2 class="text-lg font-semibold text-black mb-0.5">Lobby</h2>
                 <p>Crea un lobby e invita a tus amigos</p>
               </div>
             </div>
             <div class="flex">
-              <img src="//placehold.it/400" alt="" class="flex-none w-18 h-18 rounded-full object-cover bg-gray-100 mr-8" width="50" height="50" />
+              <CameraIcon class="flex-none w-12 h-12 rounded-full bg-white mr-8 p-3" width="50" height="50"/>
               <div class="min-w-0 relative flex-auto">
                 <h2 class="text-lg font-semibold text-black mb-0.5">Crea</h2>
                 <p>Grábate siguiendo un video ya existente o haciendo algo único.</p>
               </div>
             </div>
             <div class="flex">
-              <img src="//placehold.it/400" alt="" class="flex-none w-18 h-18 rounded-full object-cover bg-gray-100 mr-8" width="50" height="50" />
+              <ClockIcon class="flex-none w-12 h-12 rounded-full bg-white mr-8 p-3" width="50" height="50"/>
               <div class="min-w-0 relative flex-auto">
                 <h2 class="text-lg font-semibold text-black mb-0.5">Espera</h2>
                 <p>A que tus amigos graben sus videos.</p>
@@ -94,7 +94,11 @@
 </template>
 
 <script>
+import { LightningBoltIcon, CameraIcon, ClockIcon } from '@heroicons/vue/solid'
 
+export default {
+  components: { LightningBoltIcon, CameraIcon, ClockIcon }
+}
 </script>
 
 <style>
