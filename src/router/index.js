@@ -10,10 +10,12 @@ const routes = [
   {
     path: '/terms',
     name: 'Terms and Conditions',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Terms.vue')
+    component: () => import(/* webpackChunkName: "terms" */ '../views/Terms.vue')
+  },
+  {
+    path: '/privacy',
+    name: 'Privacy Policy',
+    component: () => import(/* webpackChunkName: "privacy" */ '../views/Privacy.vue')
   }
 ]
 
