@@ -81,8 +81,8 @@
                 <img src=".././assets/logo-small.png" />
               </div>
               <div class="flex flex-col lg:flex-row text-center lg:text-left pt-4">
-                <p class="text-gray-100 pt-2 lg:pt-0">Políticas de privacidad</p>
-                <p class="text-gray-100 pt-6 lg:pt-0 lg:pl-4">Términos y Condiciones</p>
+                <p class="text-gray-100 pt-2 lg:pt-0"><router-link to="/privacy">Políticas de privacidad</router-link></p>
+                <p class="text-gray-100 pt-6 lg:pt-0 lg:pl-4"><router-link to="/terms">Términos y Condiciones</router-link></p>
                 <p class="text-gray-100 pt-6 lg:pt-0 lg:pl-4">Ayuda</p>
               </div>
             </div>
