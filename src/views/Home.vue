@@ -4,7 +4,7 @@
       <div class="container py-12 relative">
         <img src=".././assets/gruv-logo.png" class="mx-auto lg:mx-0">
         <div class="text-center lg:text-left py-16 lg:py-28">
-          <h1 class="text-gray-100 text-6xl font-bold leading-relaxed">Baila, ríe y diviértete<br>creando videos</h1>
+          <h1 class="text-gray-100 text-6xl font-bold leading-relaxed">Modernizamos el <br>clásico "teléfono <br>descompuesto"</h1>
           <h4 class="text-gray-100 text-large font-bold leading-relaxed">Descarga grüv.it</h4>
           <div class="flex flex-row justify-center lg:justify-start pt-4">
             <img class="pr-2 lg:pr-5 h-10" src=".././assets/appstore-badge.png">
@@ -22,7 +22,7 @@
         </div>
         <div class="col-span-3 text-center py-12 lg:text-left lg:py-40">
           <h2 class="text-4xl font-bold">Juega Remotamente</h2>
-          <p>Disfruta de la compañía de tus amigos y familiares de manera fácil y remota.</p>
+          <p>Nuestro propósito es conectar a las personas e inspirarlas <br> para expresarse de una forma alegrey creativa.</p>
         </div>
         <div class="flex w-full lg:hidden justify-end pt-4 align-end"><img src=".././assets/phone_mockup_2.png" class="w-1/2"></div>
       </div>
@@ -81,10 +81,10 @@
                 <img src=".././assets/logo-small.png" />
               </div>
               <div class="flex flex-col lg:flex-row text-center lg:text-left pt-4">
-                <p class="text-gray-100 pt-2 lg:pt-0"><router-link to="/privacy">Políticas de privacidad</router-link></p>
+                <p class="text-gray-100 pt-6 lg:pt-0"><router-link to="/EULA">EULA</router-link></p>
                 <p class="text-gray-100 pt-6 lg:pt-0 lg:pl-4"><router-link to="/terms">Términos y Condiciones</router-link></p>
-                <p class="text-gray-100 pt-6 lg:pt-0 lg:pl-4"><router-link to="/EULA">EULA</router-link></p>
-                <p class="text-gray-100 pt-6 lg:pt-0 lg:pl-4">Ayuda</p>
+                <p class="text-gray-100 pt-2 lg:pt-0 lg:pl-4"><router-link to="/privacy">Políticas de privacidad</router-link></p>
+                <p class="text-gray-100 pt-6 lg:pt-0 lg:pl-4">Nuestras Reglas</p>
               </div>
             </div>
             <div class="flex flex-col pt-10 lg:pt-0">
