@@ -22,7 +22,7 @@
     <p>For the purposes of these Terms and Conditions:</p>
 
 
-<ul>
+<ul class="list-disc list-inside">
  <li> <strong>Affiliate</strong> means an
      entity that controls, is controlled by or is under common control with a
      party, where &quot;control&quot; means ownership of 50% or more of the
@@ -31,7 +31,7 @@
  <li><strong>Country</strong>refers to: Mexico</li>
  <li> <strong>Company</strong> (referred
      to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or
-     &quot;Our&quot; in this Agreement) refers to gr�v.it .</li>
+     &quot;Our&quot; in this Agreement) refers to grüv.it .</li>
  <li> <strong>Device</strong> means
      any device that can access the Service such as a computer, a cellphone or
      a digital tablet.</li>
@@ -251,18 +251,6 @@ continuing to access or use Our Service after those revisions become effective,
 You agree to be bound by the revised terms. If You do not agree to the new
 terms, in whole or in part, please stop using the website and the Service.</p>
 
-<h2 class="leading-loose font-bold text-xl">Contact
-Us</h2>
-
-<p>If you
-have any questions about these Terms and Conditions, You can contact us:</p>
-
-<ul>
- <li>By email: gruv.itapp@gmail.com</li>
- <li>By visiting
-     this page on our website: <a
-     href="http://gruvitapp.com/" target="_blank">http://gruvitapp.com</a></li>
-</ul>
 
     <h1 class="leading-loose font-bold text-4xl">Contact Us</h1>
 
