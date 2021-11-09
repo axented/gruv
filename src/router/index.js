@@ -26,6 +26,7 @@ const routes = [
     path: '/Rules',
     name: 'Rules',
     component: () => import(/* webpackChunkName: "Rules" */ '../views/Rules.vue')
+=======
   }
 ]
 
