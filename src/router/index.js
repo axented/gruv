@@ -21,6 +21,12 @@ const routes = [
     path: '/EULA',
     name: 'EULA',
     component: () => import(/* webpackChunkName: "EULA" */ '../views/EULA.vue')
+  },
+  {
+    path: '/Rules',
+    name: 'Rules',
+    component: () => import(/* webpackChunkName: "Rules" */ '../views/Rules.vue')
+=======
   }
 ]
 
