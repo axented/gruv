@@ -99,7 +99,7 @@ const messages = {
 }
 
 const i18n = new VueI18n({
-    locale: 'en',
-    fallbackLocale: 'es',
+    locale: navigator.language || navigator.userLanguage,
+    fallbackLocale: 'en',
     messages
 })
