@@ -36,39 +36,17 @@
         <h2 class="text-4xl text-center lg:text-left font-bold leading-normal pb-12 lg:pb-24">{{ $t('content.title') }}</h2>
         <div class="flex flex-col lg:flex-row">
           <div class="flex flex-col lg:w-1/2">
-            <div class="flex">
-              <LightningBoltIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5 text-primary" width="50" height="50"/>
+            <div
+              v-for="(item, i) in howToPlay"
+              :key="i"
+              class="flex flex-row"
+              :class="{ 'mt-10': i>0 }"
+            >
+              <component v-if="item" :is="item" class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5 text-primary" width="50" height="50"/>
+              <img v-else src=".././assets/logo-small.png" alt="gruv logo" class="flex-none w-16 h-16 rounded-full object-cover bg-white mr-8 p-5" />
               <div class="min-w-0 relative flex-auto">
-                <h2 class="text-lg font-semibold text-black mb-0.5">{{ $t('content.list[0].title') }}</h2>
-                <p>{{ $t('content.list[0].text') }}</p>
-              </div>
-            </div>
-            <div class="flex mt-10">
-              <CameraIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5 text-primary" width="50" height="50"/>
-              <div class="min-w-0 relative flex-auto">
-                <h2 class="text-lg font-semibold text-black mb-0.5">{{ $t('content.list[1].title') }}</h2>
-                <p>{{ $t('content.list[1].text') }}</p>
-              </div>
-            </div>
-            <div class="flex mt-10">
-              <img src=".././assets/logo-small.png" alt="gruv logo" class="flex-none w-16 h-16 rounded-full object-cover bg-white mr-8 p-5" />
-              <div class="min-w-0 relative flex-auto">
-                <h2 class="text-lg font-semibold text-black mb-0.5">{{ $t('content.list[2].title') }}</h2>
-                <p>{{ $t('content.list[2].text') }}</p>
-              </div>
-            </div>
-            <div class="flex mt-10">
-              <ClockIcon class="flex-none w-16 h-16 rounded-full bg-white mr-8 p-5 text-primary" width="50" height="50"/>
-              <div class="min-w-0 relative flex-auto">
-                <h2 class="text-lg font-semibold text-black mb-0.5">{{ $t('content.list[3].title') }}</h2>
-                <p>{{ $t('content.list[3].text') }}</p>
-              </div>
-            </div>
-            <div class="flex mt-10">
-              <img src=".././assets/logo-small.png" alt="gruv logo" class="flex-none w-16 h-16 rounded-full object-cover bg-white mr-8 p-5" />
-              <div class="min-w-0 relative flex-auto">
-                <h2 class="text-lg font-semibold text-black mb-0.5">{{ $t('content.list[4].title') }}</h2>
-                <p>{{ $t('content.list[4].text') }}</p>
+                <h2 class="text-lg font-semibold text-black mb-0.5">{{ $t(`content.list[${i}].title`) }}</h2>
+                <p>{{ $t(`content.list[${i}].text`) }}</p>
               </div>
             </div>
           </div>
@@ -115,7 +93,16 @@
 import { LightningBoltIcon, CameraIcon, ClockIcon } from '@heroicons/vue/solid'
 
 export default {
-  components: { LightningBoltIcon, CameraIcon, ClockIcon }
+  components: { LightningBoltIcon, CameraIcon, ClockIcon },
+  data: () => ({
+    howToPlay: [
+      "LightningBoltIcon",
+      "CameraIcon",
+      "",
+      "ClockIcon",
+      "",
+    ],
+  }),
 }
 </script>
 
