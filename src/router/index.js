@@ -1,5 +1,6 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import { publicPath } from '../../vue.config'
 
 const routes = [
   {
@@ -26,13 +27,15 @@ const routes = [
     path: '/Rules',
     name: 'Rules',
     component: () => import(/* webpackChunkName: "Rules" */ '../views/Rules.vue')
-=======
   }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
-  routes
+  history: createWebHistory(publicPath),
+  routes,
+  scrollBehavior() {
+    return { top: 0, left: 0 }
+  }
 })
 
 export default router
