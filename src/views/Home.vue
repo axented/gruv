@@ -3,7 +3,7 @@
     <div class="bg-indigo-900 background-dancer">
       <div class="container py-12 relative">
         <img src=".././assets/gruv-logo.png" class="mx-auto lg:mx-0">
-        <div class="text-center lg:text-left py-16 lg:py-28">
+        <div class="text-center lg:text-left py-16 lg:py-28 md:w-1/2">
           <h1 class="text-gray-100 text-6xl font-bold leading-relaxed"> {{ $t('hero.title') }} </h1>
           <h4 class="text-gray-100 text-large font-bold leading-relaxed"> {{ $t('hero.subtitle') }} </h4>
           <div class="flex flex-row justify-center lg:justify-start pt-4">
@@ -70,12 +70,16 @@
               </div>
             </div>
             <div class="flex flex-col pt-10 lg:pt-0">
-              <h4 class="text-gray-100 text-center lg:text-left text-large font-bold leading-relaxed">{{ $t('footer.contact') }}</h4>
+              <h4 class="text-gray-100 text-center lg:text-left text-large font-bold leading-relaxed">{{ $t('footer.download') }}</h4>
               <div class="flex justify-center lg:justify-start pt-6">
-                <img src=".././assets/appstore-badge.png">
+                <a href="https://apps.apple.com/us/app/gr%C3%BCv-it/id1585058785" target="_blank">
+                  <img class="pr-2 lg:pr-5 h-10" src=".././assets/appstore-badge.png">
+                </a>
               </div>
               <div class="flex justify-center lg:justify-start pt-6">
-                <img src=".././assets/google-play-badge.png">
+              <a href="https://play.google.com/store/apps/details?id=com.lusibus.app" target="_blank">
+                <img class="lg:pr-5 h-10" src=".././assets/google-play-badge.png">
+              </a>
               </div>  
             </div>
           </div>
