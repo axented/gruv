@@ -46,6 +46,27 @@ const messages = {
       rights: '© 2021  All rights reserved',
       download: 'Download the app',
     },
+    rules: {
+      title: 'grüv it rules',
+      purpose: 'Our purpose is to connect and inspire people so they can express themselves in a joyful and creative way. Our rules are created to ensure everyone can safely participate in our app.',
+      enjoy: 'Please join us only if you are willing to comply with our rules. If not, grüv.it is not the place for you.',
+      short: 'In short:',
+      kind: 'Be Kind. Be Respectful.',
+      anyone: 'Anyone can report violations of our rules, whether they have a grüv.it account or not. To report your concern for review, please send us an email to: gruv.itapp@gmail. We will act promptly by reviewing the alert, removing content, locking the account, suspending or even blocking users to our app, depending on the severity of the violation.',
+      here: 'Here is our set of rules:',
+      list: [
+        "We have zero tolerance for any form of child sexual exploitation or abuse. ",
+        "You may not share, produce or distribute any kind of adult content or videos depicting violent sexual conduct, pornography or nudity. ",
+        "You may not engage in the targeted harassment of someone, or incite others to do so. ",
+        "You may not threaten violence against an individual or a group. ",
+        "You may not promote violence against, threaten, or harass other people on the basis of race, ethnicity, national origin, sexual orientation, gender, gender identity, religious affiliation, age or disability.  ",
+        "You may not promote or encourage suicide or self-harm. ",
+        "You may not threaten or promote terrorism. ",
+        "You may not publish other people's private information without their express authorization. ",
+        "You may not violate others' intellectual property rights, including copyright and trademark. ",
+        "You may not use our service for any kind of unlawful purpose. "
+      ]
+    }
   },
   es: {
     hero: {
@@ -92,6 +113,27 @@ const messages = {
       rights: '© 2021  Todos los derechos reservados',
       download: 'Descarga la app',
     },
+    rules: {
+      title: 'grüv it rules',
+      purpose: 'Our purpose is to connect and inspire people so they can express themselves in a joyful and creative way. Our rules are created to ensure everyone can safely participate in our app.',
+      enjoy: 'Please join us only if you are willing to comply with our rules. If not, grüv.it is not the place for you.',
+      short: 'In short:',
+      kind: 'Be Kind. Be Respectful.',
+      anyone: 'Anyone can report violations of our rules, whether they have a grüv.it account or not. To report your concern for review, please send us an email to: gruv.itapp@gmail. We will act promptly by reviewing the alert, removing content, locking the account, suspending or even blocking users to our app, depending on the severity of the violation.',
+      here: 'Here is our set of rules:',
+      list: [
+        "We have zero tolerance for any form of child sexual exploitation or abuse. ",
+        "You may not share, produce or distribute any kind of adult content or videos depicting violent sexual conduct, pornography or nudity. ",
+        "You may not engage in the targeted harassment of someone, or incite others to do so. ",
+        "You may not threaten violence against an individual or a group. ",
+        "You may not promote violence against, threaten, or harass other people on the basis of race, ethnicity, national origin, sexual orientation, gender, gender identity, religious affiliation, age or disability.  ",
+        "You may not promote or encourage suicide or self-harm. ",
+        "You may not threaten or promote terrorism. ",
+        "You may not publish other people's private information without their express authorization. ",
+        "You may not violate others' intellectual property rights, including copyright and trademark. ",
+        "You may not use our service for any kind of unlawful purpose. "
+      ]
+    }
   },
 };
 
