@@ -31,7 +31,7 @@
  <li><strong>Country</strong>refers to: Mexico</li>
  <li> <strong>Company</strong> (referred
      to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or
-     &quot;Our&quot; in this Agreement) refers to grüv.it .</li>
+     &quot;Our&quot; in this Agreement) refers to gr&#252;v.it .</li>
  <li> <strong>Device</strong> means
      any device that can access the Service such as a computer, a cellphone or
      a digital tablet.</li>
@@ -47,7 +47,7 @@
      data, information, products or services) provided by a third-party that
      may be displayed, included or made available by the Service.</li>
  <li> <strong>Website</strong> refers
-     to grüv.it , accessible from <a
+     to gr&#252;v.it , accessible from <a
      href="http://gruvitapp.com/" target="_blank">http://gruvitapp.com</a></li>
  <li> <strong>You</strong> means
      the individual accessing or using the Service, or the company, or other
