@@ -7,7 +7,7 @@
           <h1 class="text-gray-100 text-6xl font-bold leading-relaxed"> {{ $t('hero.title') }} </h1>
           <h4 class="text-gray-100 text-large font-bold leading-relaxed"> {{ $t('hero.subtitle') }} </h4>
           <div class="flex flex-row justify-center lg:justify-start pt-4">
-            <a href="https://apps.apple.com/us/app/gr%C3%BCv-it/id1585058785" target="_blank">
+            <a href="https://apps.apple.com/mx/app/gr%C3%BCv-it-connect-inspire/id6444051241" target="_blank">
               <img class="pr-2 lg:pr-5 h-10" :src="require(`@/assets/${$i18n.locale}/appstore-badge.png`)">
             </a>
             <!-- <a href="https://play.google.com/store/apps/details?id=com.lusibus.app" target="_blank">
@@ -72,7 +72,7 @@
             <div class="flex flex-col pt-10 lg:pt-0">
               <h4 class="text-gray-100 text-center lg:text-left text-large font-bold leading-relaxed">{{ $t('footer.download') }}</h4>
               <div class="flex justify-center lg:justify-start pt-6">
-                <a href="https://apps.apple.com/us/app/gr%C3%BCv-it/id1585058785" target="_blank">
+                <a href="https://apps.apple.com/mx/app/gr%C3%BCv-it-connect-inspire/id6444051241" target="_blank">
                   <img class="pr-2 lg:pr-5 h-10" :src="require(`@/assets/${$i18n.locale}/appstore-badge.png`)">
                 </a>
               </div>
