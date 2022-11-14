@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "vue-cli-service build && git subtree push --prefix dist origin deploy"
+    "deploy": "node deploy.mjs"
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.4",
@@ -26,7 +26,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
     "eslint-plugin-vue": "^7.0.0",
-    "postcss": "^8.4.16"
+    "postcss": "^8.4.16",
+    "execa": "^6.1.0"
   },
   "eslintConfig": {
     "root": true,
