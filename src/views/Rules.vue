@@ -6,17 +6,17 @@
     </div>
   </div>
   <div class="terms container py-10">
-    <h1 class="leading-loose font-bold text-4xl">{{$t(`rules.title`)}}</h1>
+    <h1 class="leading-loose font-bold text-4xl">{{$t('rules.title')}}</h1>
 
-    <p>{{$t(`rules.purpose`)}}</p>
+    <p>{{$t('rules.purpose')}}</p>
     <br>
-    <p>{{$t(`rules.enjoy`)}}</p>
+    <p>{{$t('rules.enjoy')}}</p>
     <br>
-    <p>{{$t(`rules.short`)}} <strong>{{$t(`rules.kind`)}}</strong></p>
+    <p>{{$t('rules.short')}} <strong>{{$t('rules.kind')}}</strong></p>
     <br>
-    <p>{{$t(`rules.anyone`)}}</p>
+    <p>{{$t('rules.anyone')}}</p>
     <br>
-    <p>{{$t(`rules.here`)}}</p>
+    <p>{{$t('rules.here')}}</p>
 
     <ul class="list-disc list-inside" v-for="index in $t('rules.list').length" :key="index">
         <li>{{$t(`rules.list[${index-1}]`)}}</li>
