@@ -1,4 +1,6 @@
-import { createI18n } from 'vue-i18n';
+import {
+  createI18n
+} from 'vue-i18n';
 
 const messages = {
   en: {
@@ -82,40 +84,40 @@ const messages = {
       title: '¿Cómo se juega?',
       list: [
         {
-            title: 'Lobby',
-            text: 'Crea un lobby e invita a tus amigos y familiares. Chatea con ellos mientras esperan a que todos se unan al juego.',
+          title: 'Lobby',
+          text: 'Crea un lobby e invita a tus amigos y familiares. Chatea con ellos mientras esperan a que todos se unan al juego.',
         },
         {
-            title: 'Crea',
-            text: 'El primer jugador en la cadena actúa frente a su cámara haciendo algunos pasos de baile, movimientos corporales, canto, declamación o incluso contar un chiste.',
+          title: 'Crea',
+          text: 'El primer jugador en la cadena actúa frente a su cámara haciendo algunos pasos de baile, movimientos corporales, canto, declamación o incluso contar un chiste.',
         },
         {
-            title: 'Continua',
-            text: 'Cada jugador en la línea visualiza una sola vez el video creado por el participante anterior y se graba tratando de imitar lo que vio (es más difícil de lo que parece).',
+          title: 'Continua',
+          text: 'Cada jugador en la línea visualiza una sola vez el video creado por el participante anterior y se graba tratando de imitar lo que vio (es más difícil de lo que parece).',
         },
         {
-            title: 'Espera',
-            text: 'Una vez que todos han grabado su video, la plataforma los presenta en secuencia. Esto es un grüv.',
+          title: 'Espera',
+          text: 'Una vez que todos han grabado su video, la plataforma los presenta en secuencia. Esto es un grüv.',
         },
         {
-            title: 'grüv',
-            text: 'El objetivo del juego es imitar el video tal como aparece en pantalla. Notarás cómo cada participante interpreta el reto a su estilo y el efecto acumulado de las diferencias.',
+          title: 'grüv',
+          text: 'El objetivo del juego es imitar el video tal como aparece en pantalla. Notarás cómo cada participante interpreta el reto a su estilo y el efecto acumulado de las diferencias.',
         },
       ],
     },
     footer: {
       links: {
-          eula: 'EULA',
-          tandc: 'Términos y Condiciones',
-          privacy: 'Aviso de Privacidad',
-          rules: 'Nuestras Reglas',
+        eula: 'EULA',
+        tandc: 'Términos y Condiciones',
+        privacy: 'Aviso de Privacidad',
+        rules: 'Nuestras Reglas',
       },
       contact: 'Contáctanos: ',
       rights: '© 2021  Todos los derechos reservados',
       download: 'Descarga la app',
     },
     rules: {
-      title: 'grüv it rules',
+      title: 'Reglas grüv it',
       purpose: 'Nuestro propósito es conectar a las personas e inspirarlas para expresarse de una forma alegre y creativa.',
       enjoy: 'Creamos estas reglas para que todos puedan participar de forma segura en nuestra comunidad.',
       short: 'En breve:',
@@ -123,7 +125,7 @@ const messages = {
       anyone: 'Cualquiera puede reportar violaciones a nuestras reglas, aún si no se tiene una cuenta de grüv.it. Para solicitar una revisión, por favor envíanos un correo electrónico a:',
       anyone2: 'Actuaremos oportunamente revisando la alerta, y dependiendo de la severidad de la falta, responderemos removiendo contenido, suspendiendo usuarios y/o bloqueando temporal o permanentemente usuarios.',
       here: 'Éstas son nuestras reglas:',
-      list: [ 
+      list: [
         "Cero tolerancia a cualquier tipo de explotación sexual o abuso infantil.",
         "No deberás compartir, producir ni distribuir ningún tipo de contenido destinado a público adulto, ni pornográfico o que muestre el cuerpo desnudo, ni parcial, ni totalmente.",
         "No toleramos comportamientos de acoso de ningún tipo.",
