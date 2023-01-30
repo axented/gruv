@@ -258,9 +258,9 @@ terms, in whole or in part, please stop using the website and the Service.</p>
     have any questions about this Privacy Policy, You can contact us:</p>
 
     <ul class="list-disc list-inside">
-    <li>By email: gruv.itapp@gmail.com</li>
+    <li>By email: <a class="underline text-primary" href="mailto:gruv.itapp@gmail.com" target="_blank">gruv.itapp@gmail</a></li>
     <li>By visiting
-        this page on our website:<a href="http://gruvitapp.com/" target="_blank">http://gruvitapp.com</a></li>
+        this page on our website: <a class="underline text-primary" href="http://gruvitapp.com/" target="_blank">http://gruvitapp.com</a></li>
     </ul>
     <button class="button bg-primary text-white rounded-full p-2 mt-5"><router-link to="/">Go Back</router-link></button>
   </div>

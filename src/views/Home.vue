@@ -84,7 +84,7 @@
             </div>
           </div>
           <div class="pt-12 lg:pt-0">
-            <p class="text-gray-300 text-xs">{{ $t('footer.contact') }}gruv.itapp@gmail.com</p>
+            <p class="text-gray-300 text-xs">{{ $t('footer.contact') }} <a class="underline text-primary " href="mailto:gruv.itapp@gmail.com" target="_blank">gruv.itapp@gmail</a></p>
             <p class="text-gray-300 text-xs">{{ $t('footer.rights') }}</p>
           </div>
         </div>
