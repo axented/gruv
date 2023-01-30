@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/gruv',
+  publicPath: '/',
   transpileDependencies: true
 }
