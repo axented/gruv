@@ -14,7 +14,7 @@
     <br>
     <p>{{$t('rules.short')}} <strong>{{$t('rules.kind')}}</strong></p>
     <br>
-    <p>{{$t('rules.anyone')}}</p>
+    <p>{{$t('rules.anyone')}} gruv.itapp@gmail. {{$t('rules.anyone2')}}</p>
     <br>
     <p>{{$t('rules.here')}}</p>
 

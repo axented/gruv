@@ -52,7 +52,8 @@ const messages = {
       enjoy: 'Please join us only if you are willing to comply with our rules. If not, grüv.it is not the place for you.',
       short: 'In short:',
       kind: 'Be Kind. Be Respectful.',
-      anyone: 'Anyone can report violations of our rules, whether they have a grüv.it account or not. To report your concern for review, please send us an email to: gruv.itapp@gmail. We will act promptly by reviewing the alert, removing content, locking the account, suspending or even blocking users to our app, depending on the severity of the violation.',
+      anyone: 'Anyone can report violations of our rules, whether they have a grüv.it account or not. To report your concern for review, please send us an email to:',
+      anyone2: 'We will act promptly by reviewing the alert, removing content, locking the account, suspending or even blocking users to our app, depending on the severity of the violation.',
       here: 'Here is our set of rules:',
       list: [
         "We have zero tolerance for any form of child sexual exploitation or abuse.",
@@ -119,7 +120,8 @@ const messages = {
       enjoy: 'Creamos estas reglas para que todos puedan participar de forma segura en nuestra comunidad.',
       short: 'En breve:',
       kind: 'Sé amable. Ten respeto.',
-      anyone: 'Cualquiera puede reportar violaciones a nuestras reglas, aún si no se tiene una cuenta de grüv.it. Para solicitar una revisión, por favor envíanos un correo electrónico a: gruv.itapp@gmail.com. Actuaremos oportunamente revisando la alerta, y dependiendo de la severidad de la falta, responderemos removiendo contenido, suspendiendo usuarios y/o bloqueando temporal o permanentemente usuarios.',
+      anyone: 'Cualquiera puede reportar violaciones a nuestras reglas, aún si no se tiene una cuenta de grüv.it. Para solicitar una revisión, por favor envíanos un correo electrónico a:',
+      anyone2: 'Actuaremos oportunamente revisando la alerta, y dependiendo de la severidad de la falta, responderemos removiendo contenido, suspendiendo usuarios y/o bloqueando temporal o permanentemente usuarios.',
       here: 'Éstas son nuestras reglas:',
       list: [ 
         "Cero tolerancia a cualquier tipo de explotación sexual o abuso infantil.",
