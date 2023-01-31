@@ -1,6 +1,4 @@
-import {
-  createI18n
-} from 'vue-i18n';
+import { createI18n } from 'vue-i18n';
 
 const messages = {
   en: {
@@ -36,6 +34,7 @@ const messages = {
           text: 'Although the objective of the game is to mimic the video as it appears on screen, this rarely happens. Notice the cumulative error as each player imprints his or her own style. Watch as hilarity ensues!',
         },
       ],
+      gobackbtn: 'Go Back',
     },
     footer: {
       links: {
@@ -46,7 +45,7 @@ const messages = {
       },
       contact: 'Contact us: ',
       rights: '© 2021  All rights reserved',
-      download: 'Download the app',
+      download: 'Download grüv.it',
     },
     rules: {
       title: 'grüv it rules',
@@ -68,7 +67,7 @@ const messages = {
         "You may not publish other people's private information without their express authorization.",
         "You may not violate others' intellectual property rights, including copyright and trademark.",
         "You may not use our service for any kind of unlawful purpose."
-      ]
+      ],
     }
   },
   es: {
@@ -104,6 +103,7 @@ const messages = {
           text: 'El objetivo del juego es imitar el video tal como aparece en pantalla. Notarás cómo cada participante interpreta el reto a su estilo y el efecto acumulado de las diferencias.',
         },
       ],
+      gobackbtn: 'Atrás',
     },
     footer: {
       links: {
@@ -114,7 +114,7 @@ const messages = {
       },
       contact: 'Contáctanos: ',
       rights: '© 2021  Todos los derechos reservados',
-      download: 'Descarga la app',
+      download: 'Descarga grüv.it',
     },
     rules: {
       title: 'Reglas grüv it',
@@ -136,7 +136,7 @@ const messages = {
         "No deberás publicar ni compartir información privada de otros sin su autorización expresa.",
         "Deberás respetar los derechos de propiedad intelectual, incluyendo el copyright y las marcas registradas.",
         "No deberás utilizar nuestro producto con fines ilícitos."
-      ]
+      ],
     }
   },
 };
